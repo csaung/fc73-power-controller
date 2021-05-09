@@ -13,11 +13,15 @@
 #include <stdint.h>
 
 //allowed data types
-#define uint32 uint32_t;
-#define uint16 uint16_t;
-#define uint8  uint8_t;
+#define uint32 uint32_t
+#define uint16 uint16_t
+#define uint8  uint8_t
 
 //keywords
-#define __vo volatile;
+#define __vo volatile
+#define __il inline
+#define local static
+#define global
+
 
 #endif /* DRIVER_KEYWORD_DEFS_H_ */

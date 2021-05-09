@@ -16,12 +16,18 @@
 #define uint32 uint32_t
 #define uint16 uint16_t
 #define uint8  uint8_t
+#define bool   uint8_t
+
 
 //keywords
 #define __vo volatile
 #define __il inline
 #define local static
 #define global
+
+//values
+#define true  1
+#define false 0
 
 
 #endif /* DRIVER_KEYWORD_DEFS_H_ */

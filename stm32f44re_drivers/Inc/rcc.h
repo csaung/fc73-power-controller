@@ -54,7 +54,7 @@ global enum rcc_extern_clk_src
 
 
 
-extern void rcc_pll_clk_config(bool hse_bypassed);
+extern void rcc_system_clk_config(bool hse_bypassed);
 extern void rcc_pll_clk_debug(void);
 
 

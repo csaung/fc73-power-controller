@@ -18,9 +18,20 @@
  */
 
 #include <stdint.h>
-
+#include "rcc.h"
+local uint8 i = 0;
 int main(void)
 {
+	rcc_system_clk_config(true);
     /* Loop forever */
-	for(;;);
+	//for(;;){
+		i++;
+		i++;
+		i++;
+		i++;
+		i++;
+		i++;
+		//if (i == 100)
+			//break;
+	//}
 }
